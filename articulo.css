@@ -1,0 +1,53 @@
+body{
+    background: -webkit-linear-gradient( #4CAF50, #fff);
+}
+
+h1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+    color: black;
+    text-align:center;
+}
+
+img{
+    position:center;
+}
+
+button.centrado {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  
+  .my-button:active {
+    background-color: #3e8e41;
+}
+
+div.contenedor {
+    width: 390.%;
+    
+}
+  
+button.centrado {
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
